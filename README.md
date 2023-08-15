@@ -8,7 +8,7 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 Once Helm has been set up correctly, add the repo as follows:
 
 ```
-helm repo add Spin-merge https://rishavmehra.github.io/SpinMergePro/
+helm repo add helm-deployment https://rishavmehra.github.io/helm-deployment/
 helm install cluster-spin-merge-helm  Spin-merge/spin-merge-helm
 
 ```
@@ -21,7 +21,7 @@ To install the <chart-name> chart:
 
 ```
 kubectl create ns spin-merge
-helm repo add cluster-spin-merge-helm https://rishavmehra.github.io/SpinMergePro/
+helm repo add cluster-spin-merge-helm https://rishavmehra.github.io/helm-deployment/
 helm install cluster-spin-merge-helm Spin-merge/spin-merge-helm
 ```
 
